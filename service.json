@@ -1,0 +1,23 @@
+{
+  "name": "MRI-NeckCut",
+  "version": "1.0.0",
+  "keywords": [
+    "MRI",
+    "T1",
+    "neck",
+    "brain",
+    "preprocessing"
+  ],
+  "shortdesc": "DSS example service (cut neck from T1-weighted MRI head scans)",
+  "longdesc": "Finds and removes the neck from T1-weighted MRI scans of the head. Meant for testing of DSS.",
+  "citation": "http://blah.blah.blah",
+  "url": "http://ashs.picsl.upenn.edu",
+  "tags": [
+    {
+      "name": "T1-MRI",
+      "type": "MainImage",
+      "hint": "T1-weighted MRI scan of the whole brain.",
+      "required": true
+    }
+  ]
+}
